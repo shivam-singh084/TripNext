@@ -1,2 +1,0 @@
-- [x] Add static serving for images folder in app.js
-- [ ] Replace FontAwesome icon in navbar.ejs with img tag for logo.png
