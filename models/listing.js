@@ -38,16 +38,17 @@ const listingSchema = new Schema({
     ref: "User",
   },
   geometry: {
-    type: {
-      type: String,
-      enum: ["Point"],
-      required: true,
-    },
-    coordinates: {
-      type: [Number],
-      required: true,
-    },
+  type: {
+    type: String,
+    enum: ["Point"],
+    required: false,
   },
+  coordinates: {
+    type: [Number], // [lng, lat]
+    required: false,
+  },
+},
+
   category: {
     type: String,
   },
