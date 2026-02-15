@@ -29,12 +29,12 @@ app.use(express.urlencoded({ extended: true }));
 
 const dbUrl = process.env.ATLASDB_URL;
 
-const initDB = require("./init/index.js");
+//const initDB = require("./init/index.js");
 
 main()
   .then(() => {
     console.log("connected to DB");
-    initDB();
+    //initDB();
   })
   .catch((err) => {
     console.log(err);
