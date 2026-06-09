@@ -182,8 +182,8 @@ The platform includes 15+ RESTful APIs such as:
 Add your project screenshots here.
 
 ```md
-![Home Page]("C:\Users\Lenovo\Pictures\Screenshots\Screenshot 2026-06-09 100150.png")
-![Destination Page]("C:\Users\Lenovo\Pictures\Screenshots\Screenshot 2026-06-09 100239.png")
+![Home Page]("screenshots\Screenshot 2026-06-09 100150.png")
+![Destination Page]("screenshots\Screenshot 2026-06-09 100239.png")
 ![Dashboard](screenshots/dashboard.png)
 ```
 
